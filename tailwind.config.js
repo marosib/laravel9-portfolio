@@ -2,12 +2,12 @@
 module.exports = {
   content: [
     './storage/framework/ies/*.php',
-    './resources/**/*.blade.php */',
-    './resources/**/*.js */',
-    './resources/**/*.vue */',
+    './resources/**/*.blade.php',
+    './resources/**/*.js',
+    './resources/**/*.vue',
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('./plugin.js')],
 }
